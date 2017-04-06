@@ -1,0 +1,47 @@
+body{ 
+	background-color: #000;
+ }
+
+h1{
+	text-align: center; 
+	color: #ffffff; 
+	font-family: Helvetica;
+	font-size: 30px
+}
+
+#slogan{ 
+		color: #ffffff;
+		letter-spacing: 3px;
+		font-style: italic;
+}
+
+.shout{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FF563A;
+}
+
+p { 
+	text-align: center; 
+	color: #ffffff; 
+	font-family: Helvetica;	
+}
+
+.lister{
+	text-align: left;
+	font-weight: bold;
+	text-decoration: underline; 
+	color: #FF342D;
+}
+
+ul {
+	color: #FF3333; 
+	font-family: Helvetica;
+}
+
+hr{ 
+	height: 10px;
+	background-color: #FF3333;
+	border: 0px;
+	width:  400px;
+}
