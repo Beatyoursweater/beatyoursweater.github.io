@@ -1,18 +1,26 @@
+* {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
 body{ 
-	background-color: #000;
- }
+	background-color: #ffffff;
+	background-image: url(../images/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 h1{
-	text-align: center; 
-	color: #ffffff; 
+	text-align: left; 
+	color: #28D1FF; 
 	font-family: Helvetica;
 	font-size: 30px
 }
 
 #slogan{ 
-		color: #ffffff;
-		letter-spacing: 3px;
-		font-style: italic;
+	color: #28D1FF;
+	letter-spacing: 3px;
 }
 
 .shout{
@@ -23,7 +31,7 @@ h1{
 
 p { 
 	text-align: center; 
-	color: #ffffff; 
+	color: #28D1FF; 
 	font-family: Helvetica;	
 }
 
@@ -34,14 +42,21 @@ p {
 	color: #FF342D;
 }
 
+.body{
+	font-family: Garamond;
+	font-size: 12px;
+	line-height: 1.5em;
+	margin: 15px;
+}
+
 ul {
 	color: #FF3333; 
 	font-family: Helvetica;
+	padding: 40px;
 }
 
 hr{ 
 	height: 10px;
 	background-color: #FF3333;
 	border: 0px;
-	width:  400px;
 }

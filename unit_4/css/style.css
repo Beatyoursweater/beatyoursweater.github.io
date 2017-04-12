@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Taviraj');
+* {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{ 
+	background-color: black;
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	text-align: center; 
+	color: #28D1FF; 
+	font-size: 30px
+}
+h2{ 
+	font-size: 10px;
+	text-align: center;
+	font-style: thin;
+	color: #ffffff;
+	letter-spacing: 3px;
+}
+#hero{
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.shout{
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FF563A;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+p { 
+	text-align: left; 
+	color: #28D1FF; 
+	font-family: 'Taviraj', serif;
+	font-weight: thin;	
+}
+.lister{
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline; 
+	color: #FF342D;
+	font-family: 'Roboto', sans-serif;
+}
+.body{
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 15px;
+	font-weight: thin;
+}
+ul {
+	color: #28D1FF; 
+	padding-left: 32px;
+	padding-top: 5px;
+	font-family: 'Taviraj', serif;
+}
+#headerbox{ 
+	background-color: #FF3333;
+	margin: auto;
+	padding: 0;
+	border: 0px;
+	height: 2px;
+	width: 365px;
+}
+#box{ 
+	background-color: #FF3333;
+	border: 0px;
+	height: 6px;
+}
+#footer{
+	padding-top: 25px;
+	text-align: center;
+}
