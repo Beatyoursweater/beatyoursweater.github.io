@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Taviraj');
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{ 
+	background-color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+}
+#navi{
+    background-color: #ffffff;
+}
+#navi p{
+	font-family:'Roboto', sans-serif;
+	font-size: 15pt;
+	font-weight: bold;
+	display: block;
+	color: #FF342D;
+	float: right;
+    padding: 20px 5px;
+}
+.bullets{
+	padding: 0;
+}
+.navi_hover:hover{
+	background-color: #28D1FF;
+	color: #ffffff;
+}
+.header{
+    padding: 7px;
+    text-align: center; 
+	color: #28D1FF; 
+	font-size: 30px
+ }
+#tagline{ 
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: thin;
+	color: #000;
+	letter-spacing: 2px;
+	padding-top: 10px;
+}
+article{
+    background-color: #ffffff;
+    padding: 20px;
+}
+footer{
+    background-color: #FF342D;
+    padding: 20px;
+}
+section{
+    padding: 20px;
+ }
+aside{
+    padding: 20px;
+ }
+#hero{
+	background-color: #28D1FF;
+	margin: 15px 0;
+	padding: 5px 0;
+	float: right;
+	width: 100%;
+}
+.shout{
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+p { 
+	text-align: left; 
+	color: #ffffff; 
+	font-family: 'Roboto', sans-serif;
+	font-weight: thin;	
+}
+#limited {
+	text-transform: uppercase;
+}
+.lister{
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold; 
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+.body{
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 15px;
+	font-weight: thin;
+}
+ul{
+	color: #ffffff; 
+	padding-left: 20px;
+	padding-top: 15px;
+	font-family: 'Roboto', sans-serif;
+	list-style: disc;
+}
+#headerbox{ 
+	background-color: #FF342D;
+	margin: auto;
+	padding: 0;
+	border: 0px;
+	height: 2px;
+	width: 365px;
+}
+#box{ 
+	background-color: #FF342D;
+	border: 0px;
+	height: 2px;
+	width: 100%;
+}
+#left{
+	background-color: #28D1FF;
+	padding: 20px;
+	float: left;
+	width: 69%;
+}
+#right{
+	background-color: #28D1FF;
+	padding: 20px;
+	float: right;
+	width: 29%;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#footer{
+	padding-top: 25px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#footer:hover{
+	color: #FF342D;
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
