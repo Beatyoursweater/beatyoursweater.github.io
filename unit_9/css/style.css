@@ -11,7 +11,7 @@ body{
 	font-size: 40px;
 }
 #navi{
-    background-color: #ffffff;
+    background-color: #fff;
     text-align: center;
 }
 #navi p{
@@ -19,13 +19,16 @@ body{
 	font-size: .45em;
 	font-weight: bold;
 	display: inline-block;
-	color: #FF342D;
-    padding: 7% 2%;
+    padding: 7% 2%; 
 }
 .bullets{
 	padding: 0;
+	color: #FF342D;
 }
-#navi p:hover{
+.navi_hover{
+		color: #FF342D;
+}
+.navi_hover:hover{
 	background-color: #28D1FF;
 	color: #ffffff;
 }
@@ -112,7 +115,7 @@ ul {
 	height: .06em;
 	width: 362px;
 }
-#box{ 
+#box { 
 	background-color: #FF342D;
 	border: 0px;
 	height: .06em;
@@ -156,19 +159,24 @@ a{
 a:hover{
 	color: #28D1FF;
 }
-@media only screen and (max-width: 432px) {
+@media only screen and (max-width: 517px) {
 	#navi {
 		display: inline;
 		float: none;
 		text-align: center;
+		padding: 5% 2%;
 	}
 
 	#navi p {
 		display:block;
 		float:none;
 		text-align: center;
+		padding: .25em 0;
+		margin: .25em 0;
 	}
-
+	#right {
+		padding-right: 1.5em;
+	}
 }
 @media only screen and (max-width: 677px) {
 	ul {
